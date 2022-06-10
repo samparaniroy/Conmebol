@@ -1,0 +1,60 @@
+@media all and (max-width:1199px){
+
+}
+@media all and (max-width:991px){
+    .menubar-area ul li a {
+        font-size: 15px;
+    }
+    .banner-content h2 {
+        font-size: 55px;
+    }
+    .banner-image {
+        margin-top: 40px;
+    }
+    .highlight-image {
+        margin-top: 40px;
+    }
+}
+@media all and (max-width:767px){
+    .login-button {
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-content {
+        padding-top: 60px;
+    }
+}
+@media all and (max-width:575px){
+    .menubar-area ul {
+        display: flex;
+        padding-left: 0;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .banner-content h2 {
+        font-size: 40px;
+    }
+    .player-area {
+        padding: 40px 0;
+    }
+    .player-item h3 {
+        font-size: 25px;
+    }
+    .player-item p {
+        font-size: 15px;
+    }
+    .highlight-content h2 {
+        font-size: 40px;
+    }
+    .highlight-content p {
+        font-size: 15px;
+    }
+    .highlight-area {
+        padding: 60px 0 40px 0;
+    }
+    .footer-content p {
+        font-size: 15px;
+    }
+}
